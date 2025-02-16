@@ -134,11 +134,8 @@ const WhyChooseUs = () => {
         <div className="relative mx-auto max-w-7xl">
           <div className="mb-10 text-center">
             <div className="mb-4 text-xl font-bold lg:text-3xl">
-              Why Choose AstralCloud?
+              Pourquoi Choisir AstralCloud ?
             </div>
-            <p className="text-gray-300">
-              Discover the features that set Nusantara apart from the rest.
-            </p>
           </div>
           <div className="-mx-4 flex flex-wrap">
             {features.map((feature, index) => (

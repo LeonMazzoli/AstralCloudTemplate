@@ -13,7 +13,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 const menuItems = [
-  { name: "Hébergeur de vos serveurs Minecraft !", href: "/games/minecraft-server-hosting" },
+  { name: "Hébergeur de vos serveurs Minecraft !", href: "/games/minecraft-java-hosting" },
   {
     name: "Jeux",
     href: "/games",
@@ -48,33 +48,33 @@ const menuItems = [
     name: "Autre",
     subItems: [
       {
-        title: "About Us",
+        title: "À Propos De Nous",
         href: "/about",
         icon: <FontAwesomeIcon icon={faCircleInfo} className="h-5 w-5" />,
       },
       {
-        title: "Contact",
+        title: "Contactez nous",
         href: "/contact",
         icon: <FontAwesomeIcon icon={faPhone} className="h-5 w-5" />,
       },
       {
-        title: "Privacy",
+        title: "Privacy Policy",
         href: "/privacy",
         icon: <FontAwesomeIcon icon={faLock} className="h-5 w-5" />,
       },
       {
-        title: "TOS",
+        title: "CGV/CGU",
         href: "/tos",
         icon: <FontAwesomeIcon icon={faBook} className="h-5 w-5" />,
       },
       {
-        title: "SLA",
+        title: "Mentions légales",
         href: "/sla",
         icon: <FontAwesomeIcon icon={faHandshake} className="h-5 w-5" />,
       },
       {
-        title: "Control Panel",
-        href: "#",
+        title: "Panel",
+        href: "https://panel.astralcloud.fr",
         icon: <FontAwesomeIcon icon={faGamepad} className="h-5 w-5" />,
       },
     ],
@@ -209,11 +209,11 @@ const Navbar = () => {
         </div>
 
         <Link
-          href="/"
+          href="https://billing.astralcloud.fr/index.php/login"
           className="hidden items-center gap-2 rounded-md bg-astralcloud px-4 py-2 font-semibold text-white hover:bg-[#1089af] active:bg-astralcloud lg:flex"
         >
           <FontAwesomeIcon icon={faLock} className="h-5 w-5" />
-          Client Area
+          Espace Client
         </Link>
 
         <div className="absolute inset-y-0 right-0 flex items-center sm:hidden">

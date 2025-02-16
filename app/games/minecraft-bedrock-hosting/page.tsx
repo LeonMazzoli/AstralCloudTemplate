@@ -1,4 +1,4 @@
-import Pricing from "@/app/games/minecraft-server-hosting/pricing";
+import Pricing from "@/app/games/minecraft-bedrock-hosting/pricing";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -19,8 +19,8 @@ export const metadata: Metadata = {
   },
 };
 
-const MinecraftServerHosting = () => {
+const MinecraftBedrockServerHosting = () => {
   return <Pricing />;
 };
 
-export default MinecraftServerHosting;
+export default MinecraftBedrockServerHosting;

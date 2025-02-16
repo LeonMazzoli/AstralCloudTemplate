@@ -10,19 +10,15 @@ const Trustpilot = () => {
         <div className="mx-auto max-w-7xl bg-secondary">
           <div className="flex w-full shrink-0 flex-col items-center justify-center gap-7 rounded-xl bg-primary p-8 md:p-4 lg:p-16">
             <div className="text-center text-xl font-bold lg:text-3xl">
-              Your Unbeatable Gaming Companion
+              L&apos;Hébergement de Serveurs de Jeu Fiable et Performant
             </div>
             <div className="text-center text-gray-300">
-              Since 1998, we&apos;ve been your go-to provider for Minecraft and
-              other game server hosting, offering support for all Minecraft
-              versions and a commitment to seamless gameplay. Trust AstralCloud
-              for a dependable server that simplifies modding and elevates your
-              gaming experience.
+              Depuis sa création, AstralCloud s’engage à fournir une expérience de jeu fluide avec un hébergement optimisé pour Minecraft et d’autres jeux populaires. Compatible avec toutes les versions de Minecraft, notre service simplifie l’installation des mods et garantit des performances stables. Faites confiance à AstralCloud pour un serveur fiable et une expérience de jeu sans compromis.
             </div>
             <Link href="https://trustpilot.com">
               <div className="subheader-text flex flex-row flex-wrap justify-center gap-2.5 text-center text-base">
                 <p className="mb-0 font-medium">Excellent</p>
-                <p className="mb-0 font-bold">4.7/5.0</p>
+                <p className="mb-0 font-bold">5.0/5.0</p>
                 <p className="mb-0">
                   <svg
                     viewBox="0 0 128 24"
@@ -39,14 +35,18 @@ const Trustpilot = () => {
                       fill="#fff"
                       d="m12 16.2 3.6-1 1.6 4.8-5.2-3.8Zm8.4-6.1H14l-2-6-2 6H3.6l5.2 3.8-2 6 5.2-3.7 3.2-2.3 5.2-3.8Zm17.6 6 3.6-.9 1.6 4.8-5.2-3.8Zm8.4-6H40l-2-6-2 6h-6.4l5.2 3.8-2 6 5.2-3.7 3.2-2.3 5.2-3.8Zm17.6 6 3.6-.9 1.6 4.8-5.2-3.8Zm8.4-6H66l-2-6-2 6h-6.4l5.2 3.8-2 6 5.2-3.7 3.2-2.3 5.2-3.8Zm17.6 6 3.6-.9 1.6 4.8-5.2-3.8Zm8.4-6H92l-2-6-2 6h-6.4l5.2 3.8-2 6 5.2-3.7 3.2-2.3 5.2-3.8Zm17.6 6 3.6-.9 1.6 4.8-5.2-3.8Zm8.4-6H118l-2-6-2 6h-6.4l5.2 3.8-2 6 5.2-3.7 3.2-2.3 5.2-3.8Z"
                     ></path>
-                    <path
+                    {
+
+                      /*<path
                       fill="#D9D9D9"
                       d="M115.5 4V0H128v24h-12.5V4Z"
                       style={{ mixBlendMode: "lighten" }}
-                    ></path>
+                    ></path>*/
+
+                    }
                   </svg>
                 </p>
-                <p className="mb-0">1,998+ Reviews</p>
+                <p className="mb-0">5 Avis</p>
                 <p className="mb-0">
                   <svg
                     viewBox="0 0 104 24"

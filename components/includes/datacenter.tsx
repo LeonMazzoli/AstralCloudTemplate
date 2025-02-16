@@ -19,7 +19,7 @@ const DataCenter = () => {
   const dataCenters = [
     {
       name: "Roubaix, FR",
-      flagUrl: "/assets/images/worldmap/fr.webp",
+      flagUrl: "/assets/images/worldmap/fr.png",
       latitude: 25.8,
       longitude: -4,
     }
@@ -40,17 +40,13 @@ const DataCenter = () => {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mb-6 text-center sm:mb-8 md:mb-10">
             <div className="mb-2 text-xl font-bold sm:mb-4 lg:text-3xl">
-              Our Global Reach
+              Un DataCenter en France pour une connexion rapide
             </div>
-            <p className="text-gray-300">
-              With data centers around the world, we&apos;re always close to
-              you.
-            </p>
           </div>
           <div className="relative">
             <Image
               src="/assets/images/worldmap/world-map.webp"
-              alt="World Map"
+              alt="Carte du monde"
               width={1920}
               height={1080}
               className="h-full w-full object-cover"
@@ -94,7 +90,7 @@ const DataCenter = () => {
               >
                 <Image
                   src={hoveredDataCenter.flagUrl}
-                  alt={`${hoveredDataCenter.name} Flag`}
+                  alt={`Drapeau de ${hoveredDataCenter.name}`}
                   width={25}
                   height={0}
                   className="mr-2 rounded-full"

@@ -36,11 +36,10 @@ const Games = () => {
               <div className="relative flex flex-row gap-5 overflow-hidden p-8">
                 <div className="flex flex-col gap-3">
                   <h1 className="text-xl font-bold lg:text-3xl">
-                    Games Server Hosting
+                    Nos services
                   </h1>
                   <p className="text-gray-300">
-                    AstralCloud provide premium game server hosting for over 99 of
-                    the most popular games you can think of.
+                    AstralCloud propose l&apos;hébergement de serveurs pour les jeux les plus populaires auxquels vous pouvez penser.
                   </p>
                 </div>
                 <Image
