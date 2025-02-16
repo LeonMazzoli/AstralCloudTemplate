@@ -1,18 +1,18 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Service Level Agreement - Nusantara",
+  title: "Service Level Agreement - AstralCloud",
   description:
     "The best Minecraft Server Hosting with the #1 unlimited support and modpack hosting. Sign up today with plans starting at just $2.99/month",
   keywords:
-    "Nusantara, Nusantarahosting, Nusantara hosting, game server hosting, ARK server, Rust server, Minecraft server, Valheim server, multiplayer gaming, friends gaming, instant server setup, user-friendly gaming, website hosting, domain hosting, gaming community, online gaming, dedicated servers, server management, hosting solutions, cheap",
+    "AstralCloud, AstralCloudhosting, AstralCloud hosting, game server hosting, ARK server, Rust server, Minecraft server, Valheim server, multiplayer gaming, friends gaming, instant server setup, user-friendly gaming, website hosting, domain hosting, gaming community, online gaming, dedicated servers, server management, hosting solutions, cheap",
   openGraph: {
-    title: "Service Level Agreement - Nusantara",
+    title: "Service Level Agreement - AstralCloud",
     description:
       "The best Minecraft Server Hosting with the #1 unlimited support and modpack hosting. Sign up today with plans starting at just $2.99/month",
   },
   twitter: {
-    title: "Service Level Agreement - Nusantara",
+    title: "Service Level Agreement - AstralCloud",
     description:
       "The best Minecraft Server Hosting with the #1 unlimited support and modpack hosting. Sign up today with plans starting at just $2.99/month",
   },

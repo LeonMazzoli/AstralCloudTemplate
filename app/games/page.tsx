@@ -3,20 +3,20 @@ import GameCard from "@/app/games/gamecard";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Game Server Hosting - Nusantara",
+  title: "Game Server Hosting - AstralCloud",
   description:
-    "See our list of all games you can rent a server for from Nusantara. Find private game server hosting for Minecraft, Valheim, ARK, Terraria, and many others.",
+    "See our list of all games you can rent a server for from AstralCloud. Find private game server hosting for Minecraft, Valheim, ARK, Terraria, and many others.",
   keywords:
-    "Game servers, game server hosting, host games Nusantara, Nusantarahosting, Nusantara hosting, game server hosting, ARK server, Rust server, Minecraft server, Valheim server, multiplayer gaming, friends gaming, instant server setup, user-friendly gaming, website hosting, domain hosting, gaming community, online gaming, dedicated servers, server management, hosting solutions, cheap",
+    "Game servers, game server hosting, host games AstralCloud, AstralCloudhosting, AstralCloud hosting, game server hosting, ARK server, Rust server, Minecraft server, Valheim server, multiplayer gaming, friends gaming, instant server setup, user-friendly gaming, website hosting, domain hosting, gaming community, online gaming, dedicated servers, server management, hosting solutions, cheap",
   openGraph: {
-    title: "Game Server Hosting - Nusantara",
+    title: "Game Server Hosting - AstralCloud",
     description:
-      "See our list of all games you can rent a server for from Nusantara. Find private game server hosting for Minecraft, Valheim, ARK, Terraria, and many others.",
+      "See our list of all games you can rent a server for from AstralCloud. Find private game server hosting for Minecraft, Valheim, ARK, Terraria, and many others.",
   },
   twitter: {
-    title: "Game Server Hosting - Nusantara",
+    title: "Game Server Hosting - AstralCloud",
     description:
-      "See our list of all games you can rent a server for from Nusantara. Find private game server hosting for Minecraft, Valheim, ARK, Terraria, and many others.",
+      "See our list of all games you can rent a server for from AstralCloud. Find private game server hosting for Minecraft, Valheim, ARK, Terraria, and many others.",
   },
 };
 
@@ -39,7 +39,7 @@ const Games = () => {
                     Games Server Hosting
                   </h1>
                   <p className="text-gray-300">
-                    Nusantara provide premium game server hosting for over 99 of
+                    AstralCloud provide premium game server hosting for over 99 of
                     the most popular games you can think of.
                   </p>
                 </div>

@@ -5,7 +5,7 @@ import { useEffect } from "react";
 
 const UpdateSchemaOrg = () => {
   const pathname = usePathname();
-  const fullUrl = `https://nusantara-pi.vercel.app${pathname}`;
+  const fullUrl = `https://astralcloud.fr${pathname}`;
 
   useEffect(() => {
     const metaName = document.title || "Default Name";
@@ -18,11 +18,11 @@ const UpdateSchemaOrg = () => {
       "@context": "https://schema.org",
       "@type": "Organization",
       name: metaName,
-      legalName: "Nusantara",
+      legalName: "AstralCloud",
       foundingDate: "1998",
-      logo: "https://nusantara-pi.vercel.app/assets/images/logo-nusantara-400x400.png",
+      logo: "https://astralcloud.fr/assets/images/logo.png",
       image:
-        "https://nusantara-pi.vercel.app/assets/images/logo-nusantara-400x400.png",
+        "https://astralcloud.fr/assets/images/logo.png",
       url: fullUrl,
       description: metaDescription,
       address: {
@@ -37,13 +37,13 @@ const UpdateSchemaOrg = () => {
       contactPoint: {
         "@type": "ContactPoint",
         contactType: "Support Agent",
-        url: "https://nusantara-pi.vercel.app/contact",
+        url: "https://astralcloud.fr/contact",
       },
       sameAs: [
-        "https://www.facebook.com/nusantara",
-        "https://www.instagram.com/nusantara/",
-        "https://twitter.com/nusantara",
-        "https://www.youtube.com/channel/nusantara",
+        "https://www.facebook.com/astralcloud",
+        "https://www.instagram.com/astralcloud/",
+        "https://twitter.com/astralcloud",
+        "https://www.youtube.com/channel/astralcloud",
       ],
     };
 
@@ -55,15 +55,15 @@ const UpdateSchemaOrg = () => {
       description: metaDescription,
       image: {
         "@type": "ImageObject",
-        url: "https://nusantara-pi.vercel.app/assets/images/logo-nusantara-400x400.png",
+        url: "https://astralcloud.fr/assets/images/logo.png",
         width: "400",
         height: "400",
       },
       sameAs: [
-        "https://www.facebook.com/nusantara",
-        "https://www.instagram.com/nusantara/",
-        "https://twitter.com/nusantara",
-        "https://www.youtube.com/channel/nusantara",
+        "https://www.facebook.com/astralcloud",
+        "https://www.instagram.com/astralcloud/",
+        "https://twitter.com/astralcloud",
+        "https://www.youtube.com/channel/astralcloud",
       ],
     };
 
@@ -83,7 +83,7 @@ const UpdateSchemaOrg = () => {
           name: metaName,
           description: metaDescription,
           url: fullUrl,
-          logo: "https://nusantara-pi.vercel.app/assets/images/logo-nusantara-400x400.png",
+          logo: "https://astralcloud.fr/assets/images/logo.png",
         },
         areaServed: "Worldwide",
         description: metaDescription,
@@ -100,7 +100,7 @@ const UpdateSchemaOrg = () => {
       "@context": "https://schema.org",
       "@type": "WebPageElement",
       keywords:
-        "nusantara, nusantarahosting, nusantara hosting, game server hosting, ARK server, Rust server, Minecraft server, Valheim server, multiplayer gaming",
+        "astralcloud, astralcloudhosting, astralcloud hosting, game server hosting, Minecraft server",
       text: metaDescription,
       mentions: {
         "@type": "Thing",
@@ -119,11 +119,11 @@ const UpdateSchemaOrg = () => {
         worstRating: "1",
       },
       image:
-        "https://nusantara-pi.vercel.app/assets/images/logo-nusantara-400x400.png",
+        "https://astralcloud.fr/assets/images/logo.png",
       name: metaName,
       sku: "mainPage",
       description: metaDescription,
-      brand: { "@type": "Brand", name: "Nusantara" },
+      brand: { "@type": "Brand", name: "AstralCloud" },
       offers: {
         "@type": "AggregateOffer",
         url: fullUrl,
@@ -131,7 +131,7 @@ const UpdateSchemaOrg = () => {
         offerCount: 40,
         lowPrice: 3,
         highPrice: 97,
-        priceCurrency: "USD",
+        priceCurrency: "EUR",
       },
     };
 

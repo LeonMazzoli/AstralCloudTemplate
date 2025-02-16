@@ -34,24 +34,24 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "Nusantara - Game Server Hosting",
+  title: "AstralCloud - Game Server Hosting",
   description:
-    "Nusantara provides the best Minecraft server hosting since 1998. Easy to set up, 24/7 support, with instant modpack and plugin install. Starting at $3.",
+    "AstralCloud provides the best Minecraft server hosting since 1998. Easy to set up, 24/7 support, with instant modpack and plugin install. Starting at $3.",
   keywords:
-    "Nusantara, Nusantarahosting, Nusantara hosting, game server hosting, ARK server, Rust server, Minecraft server, Valheim server, multiplayer gaming, friends gaming, instant server setup, user-friendly gaming, website hosting, domain hosting, gaming community, online gaming, dedicated servers, server management, hosting solutions, cheap",
-  authors: [{ name: "Nusantara" }],
-  applicationName: "Nusantara",
+    "AstralCloud, AstralCloudhosting, AstralCloud hosting, game server hosting, ARK server, Rust server, Minecraft server, Valheim server, multiplayer gaming, friends gaming, instant server setup, user-friendly gaming, website hosting, domain hosting, gaming community, online gaming, dedicated servers, server management, hosting solutions, cheap",
+  authors: [{ name: "AstralCloud" }],
+  applicationName: "AstralCloud",
   robots: "index, follow",
   openGraph: {
-    title: "Nusantara - Game Server Hosting",
+    title: "AstralCloud - Game Server Hosting",
     description:
-      "Nusantara provides the best Minecraft server hosting since 1998. Easy to set up, 24/7 support, with instant modpack and plugin install. Starting at $3.",
-    url: "https://nusantara-pi.vercel.app",
-    siteName: "Nusantara",
+      "AstralCloud provides the best Minecraft server hosting since 1998. Easy to set up, 24/7 support, with instant modpack and plugin install. Starting at $3.",
+    url: "https://astralcloud.fr",
+    siteName: "AstralCloud",
     type: "website",
     images: [
       {
-        url: "https://nusantara-pi.vercel.app/assets/images/seo/1200x630.webp",
+        url: "https://astralcloud.fr/assets/images/seo/1200x630.webp",
         width: 1200,
         height: 630,
         alt: "Logo AstralCloud",
@@ -60,13 +60,13 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    site: "@Nusantara",
-    title: "Nusantara - Game Server Hosting",
+    site: "@AstralCloud",
+    title: "AstralCloud - Game Server Hosting",
     description:
-      "Nusantara provides the best Minecraft server hosting since 1998. Easy to set up, 24/7 support, with instant modpack and plugin install. Starting at $3.",
+      "AstralCloud provides the best Minecraft server hosting since 1998. Easy to set up, 24/7 support, with instant modpack and plugin install. Starting at $3.",
     images: [
       {
-        url: "https://nusantara-pi.vercel.app/assets/images/seo/1200x630.webp",
+        url: "https://astralcloud.fr/assets/images/seo/1200x630.webp",
         width: 1200,
         height: 630,
         alt: "Logo AstralCloud",

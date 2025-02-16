@@ -15,7 +15,7 @@ const Trustpilot = () => {
             <div className="text-center text-gray-300">
               Since 1998, we&apos;ve been your go-to provider for Minecraft and
               other game server hosting, offering support for all Minecraft
-              versions and a commitment to seamless gameplay. Trust Nusantara
+              versions and a commitment to seamless gameplay. Trust AstralCloud
               for a dependable server that simplifies modding and elevates your
               gaming experience.
             </div>

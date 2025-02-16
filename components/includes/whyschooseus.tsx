@@ -14,9 +14,9 @@ const features = [
         />
       </svg>
     ),
-    title: "Uptime 99,9%",
+    title: "Accompagnement en développement",
     description:
-      "Our infrastructure, housed in top-tier data centers with the most reliable uplinks, allows us to offer our clients an impressive 99.5% uptime for their services.",
+      "AstralCloud vous accompagne tout au long de votre projet, que ce soit en développement ou en conseils.",
   },
   {
     icon: (
@@ -33,9 +33,9 @@ const features = [
         />
       </svg>
     ),
-    title: "Support 24 / 7",
+    title: "Simple d'utilisation",
     description:
-      "We are dedicated to supporting you at all times. Our 24/7 Support Team is available to address any commercial or technical issues you may encounter.",
+      "Grâce au panel pterodactyl, gérer votre serveur n'aura jamais été aussi simple.",
   },
   {
     icon: (
@@ -52,9 +52,9 @@ const features = [
         />
       </svg>
     ),
-    title: "DDoS Protection",
+    title: "Sauvegarde Quotidienne",
     description:
-      "ur services are protected by enterprise-level security against DDoS attacks, with a capacity of up to 17Tbps, ensuring your services remain online seamlessly.",
+      "Aucune inquiétude, vos données sont sauvegardées tous les jours pour plus de sécurité.",
   },
   {
     icon: (
@@ -71,9 +71,9 @@ const features = [
         />
       </svg>
     ),
-    title: "NvMe Storage",
+    title: "Bonne Connexion",
     description:
-      "Immerse yourself in lightning-fast load times and seamless performance with NVMe storage technology, providing unparalleled speed and responsiveness.",
+      "Une connexion puissante pour ne pas être limité.",
   },
   {
     icon: (
@@ -90,9 +90,9 @@ const features = [
         />
       </svg>
     ),
-    title: "Ultra-Fast Infrastructure",
+    title: "Protection",
     description:
-      "Our hosting network is powered by high-performance AMD Ryzen 9 dedicated servers, delivering unparalleled game server performance.",
+      "Toutes nos machines sont protégées par un AntiDDOS.",
   },
   {
     icon: (
@@ -115,9 +115,9 @@ const features = [
         />
       </svg>
     ),
-    title: "Powerful Panel",
+    title: "Support 24/7",
     description:
-      "We use Pterodactyl as our premium control panel for game servers. This user-friendly and efficient platform is ideal for managing any project.",
+      "AstralCloud vous permet d'avoir un support 24h/24-7j/7 et vous accompagne en developpement.",
   },
 ];
 
@@ -134,7 +134,7 @@ const WhyChooseUs = () => {
         <div className="relative mx-auto max-w-7xl">
           <div className="mb-10 text-center">
             <div className="mb-4 text-xl font-bold lg:text-3xl">
-              Why Choose Nusantara?
+              Why Choose AstralCloud?
             </div>
             <p className="text-gray-300">
               Discover the features that set Nusantara apart from the rest.

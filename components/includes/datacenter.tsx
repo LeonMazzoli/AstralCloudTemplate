@@ -18,35 +18,11 @@ const DataCenter = () => {
 
   const dataCenters = [
     {
-      name: "Dallas, US",
-      flagUrl: "/assets/images/worldmap/us.webp",
-      latitude: -2.8,
-      longitude: -58.6,
-    },
-    {
       name: "Frankfurt, DE",
       flagUrl: "/assets/images/worldmap/de.webp",
       latitude: 25.8,
       longitude: -4,
-    },
-    {
-      name: "Tokyo, JP",
-      flagUrl: "/assets/images/worldmap/jp.webp",
-      latitude: 0,
-      longitude: 73,
-    },
-    {
-      name: "Singapore, SG",
-      flagUrl: "/assets/images/worldmap/sg.webp",
-      latitude: -43,
-      longitude: 52,
-    },
-    {
-      name: "Jakarta, ID",
-      flagUrl: "/assets/images/worldmap/id.webp",
-      latitude: -55,
-      longitude: 57,
-    },
+    }
   ];
 
   useEffect(() => {

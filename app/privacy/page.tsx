@@ -1,18 +1,18 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy - Nusantara",
+  title: "Privacy Policy - AstralCloud",
   description:
     "The best Minecraft Server Hosting with the #1 unlimited support and modpack hosting. Sign up today with plans starting at just $2.99/month",
   keywords:
-    "Nusantara, Nusantarahosting, Nusantara hosting, game server hosting, ARK server, Rust server, Minecraft server, Valheim server, multiplayer gaming, friends gaming, instant server setup, user-friendly gaming, website hosting, domain hosting, gaming community, online gaming, dedicated servers, server management, hosting solutions, cheap",
+    "AstralCloud, AstralCloudhosting, AstralCloud hosting, game server hosting, ARK server, Rust server, Minecraft server, Valheim server, multiplayer gaming, friends gaming, instant server setup, user-friendly gaming, website hosting, domain hosting, gaming community, online gaming, dedicated servers, server management, hosting solutions, cheap",
   openGraph: {
-    title: "Privacy Policy - Nusantara",
+    title: "Privacy Policy - AstralCloud",
     description:
       "The best Minecraft Server Hosting with the #1 unlimited support and modpack hosting. Sign up today with plans starting at just $2.99/month",
   },
   twitter: {
-    title: "Privacy Policy - Nusantara",
+    title: "Privacy Policy - AstralCloud",
     description:
       "The best Minecraft Server Hosting with the #1 unlimited support and modpack hosting. Sign up today with plans starting at just $2.99/month",
   },
@@ -61,7 +61,7 @@ const PrivacyPolicy = () => {
               title="Introduction"
               content={
                 <p>
-                  Welcome to Nusantara, your trusted game service provider. We
+                  Welcome to AstralCloud, your trusted game service provider. We
                   are committed to safeguarding the privacy and security of your
                   data. This Privacy Policy sets out our practices in compliance
                   with the General Data Protection Regulation (GDPR) and

@@ -6,7 +6,7 @@ import { faBullhorn } from "@fortawesome/free-solid-svg-icons";
 const Footer = () => {
   const sections = [
     {
-      category: "Games",
+      category: "Jeux",
       items: [
         { name: "Minecraft", url: "/games/minecraft-server-hosting" },
         { name: "Terraria", url: "#" },
@@ -14,27 +14,26 @@ const Footer = () => {
       ],
     },
     {
-      category: "Company",
+      category: "AstralCloud",
       items: [
-        { name: "About", url: "/about" },
+        { name: "À propos de nous", url: "/about" },
         { name: "Contact", url: "/contact" },
-        { name: "Sitemap", url: "/sitemap" },
       ],
     },
     {
-      category: "Legal",
+      category: "Légal",
       items: [
-        { name: "SLA", url: "/sla" },
+        { name: "CGV/CGU", url: "/sla" },
         { name: "Privacy Policy", url: "/privacy" },
-        { name: "Terms Of Service", url: "/tos" },
+        { name: "Mentions légales", url: "/tos" },
       ],
     },
     {
-      category: "Technology",
+      category: "Maintenance",
       items: [
-        { name: "Server Status", url: "#" },
-        { name: "Game Panel", url: "#" },
-        { name: "Billing", url: "#" },
+        { name: "Status des serveurs", url: "#" },
+        { name: "Panel", url: "#" },
+        { name: "Espace client", url: "#" },
       ],
     },
   ];
@@ -97,7 +96,7 @@ const Footer = () => {
                 width={50}
                 height={50}
               />
-              <h2 className="text-xl font-bold">Nusantara</h2>
+              <h2 className="text-xl font-bold">AstralCloud</h2>
             </div>
             <p id="about-us" className="mt-2 text-center text-sm lg:text-left">
               We are a company focused on game development and server services.
@@ -106,7 +105,7 @@ const Footer = () => {
             </p>
 
             <p className="mt-2 text-center text-sm md:text-left lg:text-center">
-              &copy; {new Date().getFullYear()} Nusantara. All rights reserved.
+              &copy; {new Date().getFullYear()} AstralCloud. All rights reserved.
             </p>
           </div>
           {sections.map((section) => (

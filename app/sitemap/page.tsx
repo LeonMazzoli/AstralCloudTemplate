@@ -1,21 +1,21 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Sitemap - Nusantara",
+  title: "Sitemap - AstralCloud",
   description:
     "The best Minecraft server hosting starting at just $3/month with unlimited slots, 24/7/365 support, 2,000+ modpacks on one-click installs at 20 locations.",
   keywords:
-    "Nusantara, Nusantarahosting, Nusantara hosting, game server hosting, ARK server, Rust server, Minecraft server, Valheim server, multiplayer gaming, friends gaming, instant server setup, user-friendly gaming, website hosting, domain hosting, gaming community, online gaming, dedicated servers, server management, hosting solutions, cheap",
+    "AstralCloud, AstralCloudhosting, AstralCloud hosting, game server hosting, ARK server, Rust server, Minecraft server, Valheim server, multiplayer gaming, friends gaming, instant server setup, user-friendly gaming, website hosting, domain hosting, gaming community, online gaming, dedicated servers, server management, hosting solutions, cheap",
   openGraph: {
-    title: "Sitemap - Nusantara",
+    title: "Sitemap - AstralCloud",
     description:
       "The best Minecraft server hosting starting at just $3/month with unlimited slots, 24/7/365 support, 2,000+ modpacks on one-click installs at 20 locations.",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    site: "@Nusantara",
-    title: "Sitemap - Nusantara",
+    site: "@AstralCloud",
+    title: "Sitemap - AstralCloud",
     description:
       "The best Minecraft server hosting starting at just $3/month with unlimited slots, 24/7/365 support, 2,000+ modpacks on one-click installs at 20 locations.",
   },
@@ -38,7 +38,7 @@ const Sitemap = () => {
   return (
     <section className="bg-secondary p-5 lg:p-16">
       <div className="mx-auto max-w-7xl">
-        <div className="mb-8 text-2xl font-bold">Nusantara Sitemap</div>
+        <div className="mb-8 text-2xl font-bold">AstralCloud Sitemap</div>
         <ul className="grid grid-cols-1 lg:grid-cols-3">
           {sitemaps.map((sitemap, index) => (
             <li

@@ -2,18 +2,18 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact Us - Nusantara",
+  title: "Contact Us - AstralCloud",
   description:
     "We provide the best support in the industry with 24/7/365 support tickets along with chat support.",
   keywords:
-    "Nusantara, Nusantarahosting, Nusantara hosting, game server hosting, ARK server, Rust server, Minecraft server, Valheim server, multiplayer gaming, friends gaming, instant server setup, user-friendly gaming, website hosting, domain hosting, gaming community, online gaming, dedicated servers, server management, hosting solutions, cheap",
+    "AstralCloud, AstralCloudhosting, AstralCloud hosting, game server hosting, ARK server, Rust server, Minecraft server, Valheim server, multiplayer gaming, friends gaming, instant server setup, user-friendly gaming, website hosting, domain hosting, gaming community, online gaming, dedicated servers, server management, hosting solutions, cheap",
   openGraph: {
-    title: "Contact Us - Nusantara",
+    title: "Contact Us - AstralCloud",
     description:
       "We provide the best support in the industry with 24/7/365 support tickets along with chat support.",
   },
   twitter: {
-    title: "Contact Us - Nusantara",
+    title: "Contact Us - AstralCloud",
     description:
       "We provide the best support in the industry with 24/7/365 support tickets along with chat support.",
   },
@@ -30,7 +30,7 @@ const Contact = () => {
       >
         <div className="p-10 text-center">
           <h1 className="mb-4 text-xl font-bold lg:text-3xl">
-            Contact Nusantara
+            Contact AstralCloud
           </h1>
           <p className="w-full text-gray-300 md:w-[700px]">
             We use an agile approach to test assumptions and connect with the
@@ -129,7 +129,7 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="font-bold">Email</h3>
-                <p>support@nusantara.id</p>
+                <p>support@AstralCloud.id</p>
               </div>
             </div>
           </div>

@@ -120,7 +120,7 @@ const Navbar = () => {
             <Link href="/">
               <Image
                 src="/assets/images/logo.png"
-                alt="Nusantara Original"
+                alt="AstralCloud Original"
                 width={40}
                 height={40}
               />

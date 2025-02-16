@@ -71,12 +71,11 @@ const CookieBanner = () => {
               className="rounded-md border bg-[#b5efff] p-2 text-astralcloud"
             />
             <span className="text-lg font-bold text-primary">
-              Cookie Notice
+              Cookies
             </span>
           </div>
           <p className="text text-sm font-semibold text-primary opacity-80">
-            We use cookies to improve your experience on our site. By
-            continuing, you accept our{" "}
+            Nous utilisons les cookies pour améliorer votre expérience sur AstralCloud. En continuant, vous accepterez :{" "}
             <Link
               href="/privacy"
               className="font-semibold text-primary underline"
@@ -89,13 +88,13 @@ const CookieBanner = () => {
               onClick={handleManageCookies}
               className="w-full cursor-pointer rounded bg-gray-300 py-1.5 text-center text-sm font-semibold text-primary hover:bg-gray-400 focus:outline-none"
             >
-              Manage Cookies
+              Gérer les Cookies
             </div>
             <div
               onClick={handleAccept}
               className="w-full cursor-pointer rounded bg-astralcloud py-1.5 text-center text-sm font-semibold text-white hover:bg-[#1089af] focus:outline-none"
             >
-              Accept
+              Accepter
             </div>
           </div>
         </div>
@@ -121,12 +120,11 @@ const CookieBanner = () => {
               className="rounded-md border bg-[#b5efff] p-2 text-astralcloud"
             />
             <span className="text-lg font-bold text-primary">
-              Manage Cookies
+              Gérer les Cookies
             </span>
           </div>
           <p className="mb-4 text-sm text-gray-700">
-            Choose which cookies you want to allow. You can change these
-            settings at any time.
+            Choisissez les cookies que vous voulez accepter. Vous pouvez changer ces paramètres à n'importe quel moment.
           </p>
           <div className="flex flex-col space-y-2 text-primary">
             <label className="flex items-center">
@@ -139,7 +137,7 @@ const CookieBanner = () => {
                 disabled
               />
               <span className="ml-2 text-sm">
-                Necessary Cookies (Always Active)
+                Cookies nécéssaire (Toujours Actif)
               </span>
             </label>
             <label className="flex items-center">
@@ -150,7 +148,7 @@ const CookieBanner = () => {
                 checked={preferences.analytics}
                 onChange={handlePreferenceChange}
               />
-              <span className="ml-2 text-sm">Analytics Cookies</span>
+              <span className="ml-2 text-sm">Cookies Analystiques</span>
             </label>
             <label className="flex items-center">
               <input
@@ -160,7 +158,7 @@ const CookieBanner = () => {
                 checked={preferences.marketing}
                 onChange={handlePreferenceChange}
               />
-              <span className="ml-2 text-sm">Marketing Cookies</span>
+              <span className="ml-2 text-sm">Cookies de Marketing</span>
             </label>
           </div>
           <div className="mt-4 flex justify-end">
@@ -168,7 +166,7 @@ const CookieBanner = () => {
               onClick={handleSavePreferences}
               className="cursor-pointer rounded bg-astralcloud px-4 py-2 text-white hover:bg-[#1089af] focus:outline-none"
             >
-              Save Preferences
+              Sauvegarder les Préférences
             </div>
           </div>
         </div>

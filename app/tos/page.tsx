@@ -1,18 +1,18 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Terms Of Service - Nusantara",
+  title: "Terms Of Service - AstralCloud",
   description:
     "The best Minecraft Server Hosting with the #1 unlimited support and modpack hosting. Sign up today with plans starting at just $2.99/month",
   keywords:
-    "Nusantara, Nusantarahosting, Nusantara hosting, game server hosting, ARK server, Rust server, Minecraft server, Valheim server, multiplayer gaming, friends gaming, instant server setup, user-friendly gaming, website hosting, domain hosting, gaming community, online gaming, dedicated servers, server management, hosting solutions, cheap",
+    "AstralCloud, AstralCloudhosting, AstralCloud hosting, game server hosting, ARK server, Rust server, Minecraft server, Valheim server, multiplayer gaming, friends gaming, instant server setup, user-friendly gaming, website hosting, domain hosting, gaming community, online gaming, dedicated servers, server management, hosting solutions, cheap",
   openGraph: {
-    title: "Terms Of Service - Nusantara",
+    title: "Terms Of Service - AstralCloud",
     description:
       "The best Minecraft Server Hosting with the #1 unlimited support and modpack hosting. Sign up today with plans starting at just $2.99/month",
   },
   twitter: {
-    title: "Terms Of Service - Nusantara",
+    title: "Terms Of Service - AstralCloud",
     description:
       "The best Minecraft Server Hosting with the #1 unlimited support and modpack hosting. Sign up today with plans starting at just $2.99/month",
   },
@@ -64,14 +64,14 @@ const TermsOfService = () => {
               content={
                 <>
                   <p>
-                    <strong>1.1.</strong> &quot;Nusantara,&quot; &quot;we,&quot;
-                    &quot;us,&quot; or &quot;our&quot; refers to Nusantara, the
+                    <strong>1.1.</strong> &quot;AstralCloud,&quot; &quot;we,&quot;
+                    &quot;us,&quot; or &quot;our&quot; refers to AstralCloud, the
                     Game Server Provider (GSP) offering game server hosting
                     services.
                   </p>
                   <p>
                     <strong>1.2.</strong> &quot;Services&quot; refer to the game
-                    server hosting services provided by Nusantara, including
+                    server hosting services provided by AstralCloud, including
                     software, hardware, network infrastructure, and related
                     components required for hosting game servers.
                   </p>

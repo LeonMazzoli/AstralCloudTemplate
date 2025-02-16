@@ -11,7 +11,7 @@ const Promo = () => {
   const copyToClipboard = (text: string) => {
     navigator.clipboard.writeText(text).then(
       () => {
-        setCopySuccess("Copied!");
+        setCopySuccess("Copié!");
         setIsCopied(true);
         setTimeout(() => {
           setCopySuccess("");
@@ -19,7 +19,7 @@ const Promo = () => {
         }, 2000);
       },
       (err) => {
-        setCopySuccess("Failed to copy!");
+        setCopySuccess("Échec de la copie!");
       },
     );
   };
@@ -41,11 +41,10 @@ const Promo = () => {
                 onClick={() => !isCopied && copyToClipboard("WWiRRu")}
               >
                 <FontAwesomeIcon icon={faCopy} />
-                <p>{isCopied ? "COPIED ✓" : "WWiRRu"}</p>
+                <p>{isCopied ? "COPIÉ ✓" : "WWiRRu"}</p>
               </div>
               <p>
-                <span className="font-bold">Get 20% off</span> on your first
-                order
+                Voici un code de <span className="font-bold">5%</span> sur votre première commande !
               </p>
             </div>
             <FontAwesomeIcon

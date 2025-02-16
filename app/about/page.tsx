@@ -2,20 +2,20 @@ import Image from "next/image";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Us - Nusantara",
+  title: "About Us - AstralCloud",
   description:
-    "Learn about Nusantara, where you can rent servers for Minecraft and 50++ different games. See how we make it easy to host your own server community.",
+    "Learn about AstralCloud, where you can rent servers for Minecraft and 50++ different games. See how we make it easy to host your own server community.",
   keywords:
-    "Nusantara, Nusantarahosting, Nusantara hosting, game server hosting, ARK server, Rust server, Minecraft server, Valheim server, multiplayer gaming, friends gaming, instant server setup, user-friendly gaming, website hosting, domain hosting, gaming community, online gaming, dedicated servers, server management, hosting solutions, cheap",
+    "AstralCloud, AstralCloudhosting, AstralCloud hosting, game server hosting, ARK server, Rust server, Minecraft server, Valheim server, multiplayer gaming, friends gaming, instant server setup, user-friendly gaming, website hosting, domain hosting, gaming community, online gaming, dedicated servers, server management, hosting solutions, cheap",
   openGraph: {
-    title: "About Us - Nusantara",
+    title: "About Us - AstralCloud",
     description:
-      "Learn about Nusantara, where you can rent servers for Minecraft and 50++ different games. See how we make it easy to host your own server community.",
+      "Learn about AstralCloud, where you can rent servers for Minecraft and 50++ different games. See how we make it easy to host your own server community.",
   },
   twitter: {
-    title: "About Us - Nusantara",
+    title: "About Us - AstralCloud",
     description:
-      "Learn about Nusantara, where you can rent servers for Minecraft and 50++ different games. See how we make it easy to host your own server community.",
+      "Learn about AstralCloud, where you can rent servers for Minecraft and 50++ different games. See how we make it easy to host your own server community.",
   },
 };
 
@@ -30,10 +30,10 @@ const About = () => {
       >
         <div className="p-10 text-center">
           <h1 className="mb-4 text-xl font-bold lg:text-3xl">
-            About Nusantara
+            About AstralCloud
           </h1>
           <p className="w-full text-gray-300 md:w-[700px]">
-            Based in Jakarta, Indonesia, Nusantara is a leading player-owned
+            Based in Jakarta, Indonesia, AstralCloud is a leading player-owned
             game server hosting provider since 1998.
           </p>
         </div>
@@ -52,7 +52,7 @@ const About = () => {
                 </div>
                 <div className="text-dark-n-300 mt-3 flex flex-col gap-3 text-center text-base leading-6 lg:text-left">
                   <p>
-                    Nusantara offers{" "}
+                    AstralCloud offers{" "}
                     <b>premium services at unbeatable prices</b>. Founded in
                     March 1998, we&apos;re among the longest-running Minecraft
                     server hosting providers.
