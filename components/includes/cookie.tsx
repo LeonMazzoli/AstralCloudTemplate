@@ -124,7 +124,7 @@ const CookieBanner = () => {
             </span>
           </div>
           <p className="mb-4 text-sm text-gray-700">
-            Choisissez les cookies que vous voulez accepter. Vous pouvez changer ces paramètres à n'importe quel moment.
+            Choisissez les cookies que vous voulez accepter. Vous pouvez changer ces paramètres à n&apos;importe quel moment.
           </p>
           <div className="flex flex-col space-y-2 text-primary">
             <label className="flex items-center">

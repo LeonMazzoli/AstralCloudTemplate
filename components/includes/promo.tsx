@@ -38,13 +38,13 @@ const Promo = () => {
             <div className="flex flex-col items-center gap-2 lg:flex-row">
               <div
                 className={`flex cursor-pointer items-center gap-2 rounded-xl border-2 border-dashed px-5 py-1 ${isCopied ? "cursor-default opacity-50" : ""}`}
-                onClick={() => !isCopied && copyToClipboard("WWiRRu")}
+                onClick={() => !isCopied && copyToClipboard("BIENVENUE")}
               >
                 <FontAwesomeIcon icon={faCopy} />
-                <p>{isCopied ? "COPIÉ ✓" : "WWiRRu"}</p>
+                <p>{isCopied ? "COPIÉ ✓" : "BIENVENUE"}</p>
               </div>
               <p>
-                Voici un code de <span className="font-bold">5%</span> sur votre première commande !
+                Voici un code de <span className="font-bold">10%</span> sur votre première commande !
               </p>
             </div>
             <FontAwesomeIcon

@@ -19,7 +19,7 @@ const plans = [
     memory: "1024 MB",
     pricebasic: "$3.00",
     pricepremium: "$4.00",
-    playerSlots: 2,
+    vCore: 2,
     image: "/assets/images/games/minecraft-server-hosting/stone.webp",
     linkbasic: "",
     linkpremium: "",
@@ -30,7 +30,7 @@ const plans = [
     memory: "2048 MB",
     pricebasic: "$6.00",
     pricepremium: "$7.00",
-    playerSlots: 2,
+    vCore: 2,
     image: "/assets/images/games/minecraft-server-hosting/coal.webp",
     linkbasic: "",
     linkpremium: "",
@@ -41,7 +41,7 @@ const plans = [
     memory: "3072 MB",
     pricebasic: "$9.00",
     pricepremium: "$10.00",
-    playerSlots: 6,
+    vCore: 6,
     image: "/assets/images/games/minecraft-server-hosting/iron.webp",
     linkbasic: "",
     linkpremium: "",
@@ -52,7 +52,7 @@ const plans = [
     memory: "4096 MB",
     pricebasic: "$12.00",
     pricepremium: "$13.00",
-    playerSlots: 8,
+    vCore: 8,
     image: "/assets/images/games/minecraft-server-hosting/gold.webp",
     linkbasic: "",
     linkpremium: "",
@@ -63,7 +63,7 @@ const plans = [
     memory: "5120 MB",
     pricebasic: "$15.00",
     pricepremium: "$16.00",
-    playerSlots: 10,
+    vCore: 10,
     image: "/assets/images/games/minecraft-server-hosting/lapis.webp",
     linkbasic: "",
     linkpremium: "",
@@ -74,7 +74,7 @@ const plans = [
     memory: "6144 MB",
     pricebasic: "$18.00",
     pricepremium: "$19.00",
-    playerSlots: 12,
+    vCore: 12,
     image: "/assets/images/games/minecraft-server-hosting/redstone.webp",
     linkbasic: "",
     linkpremium: "",
@@ -85,7 +85,7 @@ const plans = [
     memory: "8192 MB",
     pricebasic: "$24.00",
     pricepremium: "$25.00",
-    playerSlots: 14,
+    vCore: 14,
     image: "/assets/images/games/minecraft-server-hosting/diamond.webp",
     linkbasic: "",
     linkpremium: "",
@@ -96,7 +96,7 @@ const plans = [
     memory: "12288 MB",
     pricebasic: "$36.00",
     pricepremium: "$37.00",
-    playerSlots: 16,
+    vCore: 16,
     image: "/assets/images/games/minecraft-server-hosting/emerald.webp",
     linkbasic: "",
     linkpremium: "",
@@ -107,7 +107,7 @@ const plans = [
     memory: "16384 MB",
     pricebasic: "$48.00",
     pricepremium: "$49.00",
-    playerSlots: 18,
+    vCore: 18,
     image: "/assets/images/games/minecraft-server-hosting/amethyst.webp",
     linkbasic: "",
     linkpremium: "",
@@ -118,7 +118,7 @@ const plans = [
     memory: "32768 MB",
     pricebasic: "$96.00",
     pricepremium: "$97.00",
-    playerSlots: 20,
+    vCore: 20,
     image: "/assets/images/games/minecraft-server-hosting/beacon.webp",
     linkbasic: "",
     linkpremium: "",
@@ -162,7 +162,7 @@ const PlanCard = ({ plan, isPremium }: { plan: any; isPremium: boolean }) => (
     <ul className="mt-6">
       <li className="flex items-center gap-2">
         <FontAwesomeIcon icon={faUsers} className="w-5" />
-        {plan.playerSlots} Player Slots
+        {plan.vCore} vCore
       </li>
       <li className="flex items-center gap-2">
         <FontAwesomeIcon icon={faHardDrive} className="w-5" />
@@ -241,7 +241,7 @@ const Pricing = () => {
             <div className="flex flex-col items-center gap-4 text-center md:flex-row">
               <div className="mb-2 flex items-center gap-1 md:mb-0">
                 <FontAwesomeIcon icon={faMicrochip} className="w-5" /> CPU:{" "}
-                {isPremium ? "5 GHz" : "3.2 GHz"}
+                {isPremium ? "5 GHz" : "3.2 GHz"} AMD Ryzen 7 PRO 3700
               </div>
               <div className="mb-2 flex items-center gap-1 md:mb-0">
                 <FontAwesomeIcon icon={faMemory} className="w-5" /> RAM:{" "}

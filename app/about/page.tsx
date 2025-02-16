@@ -2,18 +2,18 @@ import Image from "next/image";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Us - AstralCloud",
+  title: "À Propos De Nous - AstralCloud",
   description:
     "Learn about AstralCloud, where you can rent servers for Minecraft and 50++ different games. See how we make it easy to host your own server community.",
   keywords:
     "AstralCloud, AstralCloudhosting, AstralCloud hosting, game server hosting, ARK server, Rust server, Minecraft server, Valheim server, multiplayer gaming, friends gaming, instant server setup, user-friendly gaming, website hosting, domain hosting, gaming community, online gaming, dedicated servers, server management, hosting solutions, cheap",
   openGraph: {
-    title: "About Us - AstralCloud",
+    title: "À Propos De Nous - AstralCloud",
     description:
       "Learn about AstralCloud, where you can rent servers for Minecraft and 50++ different games. See how we make it easy to host your own server community.",
   },
   twitter: {
-    title: "About Us - AstralCloud",
+    title: "À Propos De Nous - AstralCloud",
     description:
       "Learn about AstralCloud, where you can rent servers for Minecraft and 50++ different games. See how we make it easy to host your own server community.",
   },

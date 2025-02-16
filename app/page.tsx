@@ -7,34 +7,22 @@ import { faPlay, faTurnDown } from "@fortawesome/free-solid-svg-icons";
 
 const games = [
   {
-    name: "Minecraft",
+    name: "Minecraft Java",
     src: "/assets/images/homepage/minecraft.webp",
-    alt: "minecraft server hosting cover image",
+    alt: "minecraft java server hosting cover image",
     background: { src: "/assets/images/homepage/background-minecraft.webp" },
   },
   {
-    name: "Palworld",
-    src: "/assets/images/homepage/palworld.webp",
-    alt: "palworld server hosting cover image",
-    background: { src: "/assets/images/homepage/background-palworld.webp" },
+    name: "Minecraft Bedrock",
+    src: "/assets/images/homepage/minecraft.webp",
+    alt: "minecraft bedrock server hosting cover image",
+    background: { src: "/assets/images/homepage/background-minecraft.webp" },
   },
   {
-    name: "Ark Survival",
-    src: "/assets/images/homepage/arksurvivalevolved.webp",
-    alt: "arksurvivalevolved server hosting cover image",
-    background: { src: "/assets/images/homepage/background-ark.webp" },
-  },
-  {
-    name: "Rust",
-    src: "/assets/images/homepage/rust.webp",
-    alt: "Rust server hosting cover image",
-    background: { src: "/assets/images/homepage/background-rust.webp" },
-  },
-  {
-    name: "Terraria",
-    src: "/assets/images/homepage/terraria.webp",
-    alt: "terraria server hosting cover image",
-    background: { src: "/assets/images/homepage/background-terraria.webp" },
+    name: "Bot Discord",
+    src: "/assets/images/homepage/discord.png",
+    alt: "discord server hosting cover image",
+    background: { src: "/assets/images/homepage/background-discord.png" },
   },
 ];
 
@@ -82,13 +70,11 @@ const HomePage = () => {
         <div className="mx-auto flex max-w-[48rem] flex-col items-center gap-6 text-center lg:mx-0 lg:items-start lg:text-left">
           <h1 className="text-3xl font-black sm:text-4xl md:text-5xl">
             {activeGame === "Games"
-              ? "Premium Game Server Hosting #1 World"
-              : `${activeGame} Server Hosting`}
+              ? "AstralCloud"
+              : `Des serveurs ${activeGame}`}
           </h1>
           <p className="max-w-xl">
-            We provide the best game server hosting in the world. Our servers
-            are located in 7 countries on 3 continents, and we have the best
-            support team in the industry.
+            Nous vous garantissons un serveur de QUALITÉ avec un support QUALITATIF, nous vous offrons des serveurs pas chère pour vous amuser sans vous ruiner le porte monnaie.
           </p>
         </div>
         <Link href="/games" className="lg:hidden">

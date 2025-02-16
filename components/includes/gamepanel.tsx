@@ -5,18 +5,13 @@ import Image from "next/image";
 const elements = [
   {
     name: "dashboard",
-    label: "🛖 Dashboard",
-    src: "/assets/images/game-panel/dashboard.webp",
+    label: "🛖 Panel",
+    src: "/assets/images/game-panel/dashboard.png",
   },
   {
     name: "filemanagement",
-    label: "🗂️ File Management",
-    src: "/assets/images/game-panel/filemanagement.webp",
-  },
-  {
-    name: "plugininstaller",
-    label: "🧩 Plugin Installer",
-    src: "/assets/images/game-panel/plugininstaller.webp",
+    label: "🗂️ Gestionnaire de fichier",
+    src: "/assets/images/game-panel/filemanagement.png",
   },
 ];
 
@@ -38,12 +33,10 @@ const GamePanel = () => {
       <div className="relative mx-auto grid max-w-7xl grid-cols-1 items-center gap-16 lg:grid-cols-2">
         <div className="flex flex-col gap-4">
           <h1 className="text-xl font-bold lg:text-3xl">
-            Experience AstralCloud Control Panel
+            L&apos;expérience AstralCloud
           </h1>
           <p className="text-gray-300">
-            Pterodactyl is the premium panel used by us to control gaming
-            services, offering our clients a user-friendly and efficient
-            platform.
+            Pterodactyl est le panel que nous utilisons pour gérer les services de jeu, offrant à nos clients une plateforme conviviale et efficace.
           </p>
           {elements.map((element) => (
             <div

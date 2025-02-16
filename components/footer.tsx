@@ -8,15 +8,15 @@ const Footer = () => {
     {
       category: "Jeux",
       items: [
-        { name: "Minecraft", url: "/games/minecraft-server-hosting" },
-        { name: "Terraria", url: "#" },
-        { name: "Palworld", url: "#" },
+        { name: "Minecraft Java", url: "/games/minecraft-server-hosting" },
+        { name: "Minecraft Bedrock", url: "#" },
+        { name: "Bot Discord", url: "#" },
       ],
     },
     {
       category: "AstralCloud",
       items: [
-        { name: "À propos de nous", url: "/about" },
+        { name: "À Propos De Nous", url: "/about" },
         { name: "Contact", url: "/contact" },
       ],
     },
@@ -32,8 +32,8 @@ const Footer = () => {
       category: "Maintenance",
       items: [
         { name: "Status des serveurs", url: "#" },
-        { name: "Panel", url: "#" },
-        { name: "Espace client", url: "#" },
+        { name: "Panel", url: "https://panel.astralcloud.fr" },
+        { name: "Espace client", url: "https://billing.astralcloud.fr" },
       ],
     },
   ];
@@ -98,11 +98,6 @@ const Footer = () => {
               />
               <h2 className="text-xl font-bold">AstralCloud</h2>
             </div>
-            <p id="about-us" className="mt-2 text-center text-sm lg:text-left">
-              We are a company focused on game development and server services.
-              We are committed to providing the best experience for our
-              customers.
-            </p>
 
             <p className="mt-2 text-center text-sm md:text-left lg:text-center">
               &copy; {new Date().getFullYear()} AstralCloud. All rights reserved.

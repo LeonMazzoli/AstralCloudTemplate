@@ -13,51 +13,39 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 const menuItems = [
-  { name: "Minecraft Server Hosting", href: "/games/minecraft-server-hosting" },
+  { name: "Hébergeur de vos serveurs Minecraft !", href: "/games/minecraft-server-hosting" },
   {
-    name: "Games",
+    name: "Jeux",
     href: "/games",
     subItems: [
       {
-        title: "Minecraft",
-        subtitle: "Explore, build, survive",
-        href: "/games/minecraft-server-hosting",
+        title: "Minecraft Java",
+        subtitle: "Explorez, construisez, survivez",
+        href: "/games/minecraft-java-hosting",
         imageSrc: "/assets/images/navbar/games-minecraft.webp",
       },
       {
-        title: "Terraria",
-        subtitle: "Dig, fight, explore, build",
-        href: "",
-        imageSrc: "/assets/images/navbar/games-terraria.webp",
+        title: "Minecraft Bedrock",
+        subtitle: "Combattez, explorez, minez",
+        href: "/games/minecraft-bedrock-hosting",
+        imageSrc: "/assets/images/navbar/games-minecraft.webp",
       },
       {
-        title: "Palworld",
-        subtitle: "Adventure with monsters",
-        href: "",
-        imageSrc: "/assets/images/navbar/games-palworld.webp",
+        title: "Bot Discord",
+        subtitle: "Bip Boup ?",
+        href: "/games/discord-hosting",
+        imageSrc: "/assets/images/navbar/discord.png",
       },
       {
-        title: "Ark Survival Evolved",
-        subtitle: "Survive in a world of dinosaurs",
-        href: "",
-        imageSrc: "/assets/images/navbar/games-ark-survival-evolved.webp",
-      },
-      {
-        title: "Rust",
-        subtitle: "Survive, build, dominate",
-        href: "",
-        imageSrc: "/assets/images/navbar/games-rust.webp",
-      },
-      {
-        title: "View All Games",
-        subtitle: "Browse our entire collection",
+        title: "Voir Tout Les Jeux",
+        subtitle: "Regardez tout les types de serveur disponible",
         href: "/games",
         imageSrc: "/assets/images/navbar/games.webp",
       },
     ],
   },
   {
-    name: "More",
+    name: "Autre",
     subItems: [
       {
         title: "About Us",
@@ -121,8 +109,8 @@ const Navbar = () => {
               <Image
                 src="/assets/images/logo.png"
                 alt="AstralCloud Original"
-                width={40}
-                height={40}
+                width={64}
+                height={64}
               />
             </Link>
           </div>
@@ -133,7 +121,7 @@ const Navbar = () => {
                   <button
                     onClick={() =>
                       toggleSubmenuMobile(
-                        item.name === "Games" ? "games" : "more",
+                        item.name === "Jeux" ? "games" : "more",
                       )
                     }
                     className="flex items-center rounded-md px-3 py-2 text-sm hover:bg-secondary hover:text-white focus:outline-none"
@@ -156,16 +144,16 @@ const Navbar = () => {
                   </button>
                   <div
                     className={`pointer-events-none absolute left-0 z-10 rounded-md border border-primary bg-secondary opacity-0 shadow-md transition-opacity group-hover:pointer-events-auto group-hover:opacity-100 ${
-                      item.name === "Games" && isGamesSubmenuOpen
+                      item.name === "Jeux" && isGamesSubmenuOpen
                         ? "pointer-events-auto opacity-100"
-                        : item.name === "More" && isMoreSubmenuOpen
+                        : item.name === "Autre" && isMoreSubmenuOpen
                           ? "pointer-events-auto opacity-100"
                           : "sm:pointer-events-none sm:opacity-0"
                     }`}
                   >
                     <div
                       className={`grid p-4 ${
-                        item.name === "Games"
+                        item.name === "Jeux"
                           ? "w-[50rem] grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3"
                           : "w-48 grid-cols-1"
                       }`}
@@ -264,7 +252,7 @@ const Navbar = () => {
                   <button
                     onClick={() =>
                       toggleSubmenuMobile(
-                        item.name === "Games" ? "games" : "more",
+                        item.name === "Jeux" ? "games" : "more",
                       )
                     }
                     className="flex w-full items-center rounded-md px-3 py-2 text-left hover:bg-secondary hover:text-white"
@@ -272,9 +260,9 @@ const Navbar = () => {
                     {item.name}
                     <svg
                       className={`ml-2 h-5 w-5 transform transition-transform duration-200 ${
-                        item.name === "Games" && isGamesSubmenuOpen
+                        item.name === "Jeux" && isGamesSubmenuOpen
                           ? "rotate-180"
-                          : item.name === "More" && isMoreSubmenuOpen
+                          : item.name === "Autre" && isMoreSubmenuOpen
                             ? "rotate-180"
                             : ""
                       }`}
@@ -291,11 +279,11 @@ const Navbar = () => {
                       />
                     </svg>
                   </button>
-                  {(item.name === "Games" && isGamesSubmenuOpen) ||
-                  (item.name === "More" && isMoreSubmenuOpen) ? (
+                  {(item.name === "Jeux" && isGamesSubmenuOpen) ||
+                  (item.name === "Autre" && isMoreSubmenuOpen) ? (
                     <div
                       className={`grid gap-4 p-4 ${
-                        item.name === "Games"
+                        item.name === "Jeux"
                           ? "grid-cols-1 sm:grid-cols-2 lg:grid-cols-3"
                           : "grid-cols-1"
                       }`}

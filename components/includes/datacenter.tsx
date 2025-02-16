@@ -18,8 +18,8 @@ const DataCenter = () => {
 
   const dataCenters = [
     {
-      name: "Frankfurt, DE",
-      flagUrl: "/assets/images/worldmap/de.webp",
+      name: "Roubaix, FR",
+      flagUrl: "/assets/images/worldmap/fr.webp",
       latitude: 25.8,
       longitude: -4,
     }
